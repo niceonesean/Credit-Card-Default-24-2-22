@@ -238,6 +238,7 @@ joblib.dump(model,"CCDefault")
 model=joblib.load("CCDefault")
 
 #Flask
+pip install flask
 from flask import Flask
 app=Flask(__name__)
 
